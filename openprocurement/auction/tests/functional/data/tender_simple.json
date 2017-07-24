@@ -4,7 +4,7 @@
     "title": "Tender Title", 
     "minimalStep": {
       "currency": "UAH", 
-      "amount": 35000.0, 
+      "amount": 20000.0, 
       "valueAddedTaxIncluded": true
     }, 
     "auctionPeriod": {
@@ -17,7 +17,7 @@
 		    "id": "d3ba84c66c9e4f34bfb33cc3c686f137", 
 		    "value": {
 			    "currency": null, 
-			    "amount": 475000.0, 
+			    "amount": 510000.0, 
 			    "valueAddedTaxIncluded": true
 		    }
 	    }, 
@@ -26,7 +26,7 @@
 		    "id": "5675acc9232942e8940a034994ad883e", 
 		    "value": {
 			    "currency": null, 
-			    "amount": 480000.0, 
+			    "amount": 520000.0, 
 			    "valueAddedTaxIncluded": true
 		    }
 	    }
