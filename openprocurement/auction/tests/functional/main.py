@@ -64,9 +64,11 @@ ACTIONS = {
             {'action': run_multilot, 'suite_dir': PWD})
 }
 
+
 for entry_point in iter_entry_points('openprocurement.auction.robottests'):
     plugin = entry_point.load()
     plugin(ACTIONS)
+
 
 def main():
     """
@@ -91,4 +93,4 @@ def main():
             run_cli(cli_args)
         except SystemExit, e:
             exit_code = e.code
-            sys.exit(exit_code or 0)
+    sys.exit(exit_code or 0)
