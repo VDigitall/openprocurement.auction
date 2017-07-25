@@ -71,9 +71,6 @@ for entry_point in iter_entry_points('openprocurement.auction.robottests'):
 
 
 def main():
-    """
-    /data/yarsanich/auctions/no-static/openprocurement.auction.buildout/bin/auction_esco run 11111111111111111111111111111111 /data/yarsanich/auctions/no-static/openprocurement.auction.buildout/etc/auction_worker_defaults.yaml --auction_info /tmp/tmpZV24eM
-    """
     parser = argparse.ArgumentParser("Auction test runner")
     parser.add_argument('suite', choices=ACTIONS.keys(), default='simple', help='test_suite')
     args = parser.parse_args()
